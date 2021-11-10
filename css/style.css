@@ -1,0 +1,761 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* =================================================
+                header part
+=================================================*/
+#header-part {
+    background: #0f2f44;
+}
+
+#header-part .left-part{
+    width: 50%;
+    float: left;
+}
+
+#header-part .right-part{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+#header-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+/* =================================================
+                header part
+=================================================*\
+
+/* =================================================
+                Navber part
+=================================================*/
+#navber-part .logo-part{
+    width: 20%;
+    float: left;
+}
+#navber-part .logo-part img{
+    width: 70%;
+    margin-top: 25px;
+}
+#navber-part .manu-part{
+    width: 60%;
+    height: 95px;
+    float: left;
+}
+#navber-part .manu-part ul li{
+    display: inline-block;
+    padding: 35px 25px;
+    
+}
+#navber-part .manu-part ul{
+    text-align: center;
+}
+#navber-part .manu-part ul li a{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    transition: .5s;
+    
+}
+#navber-part .manu-part ul li .active{
+    color: #ffc712;
+}
+#navber-part .manu-part ul li:hover {
+    background: #fff9e6;
+}
+#navber-part .manu-part ul li:hover a{
+    color: #ffc712;;
+}
+#navber-part .button-part{
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+#navber-part .button-part i{
+    font-size: 18px;
+    color: #999999;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: 1px solid #dedede;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 15px;
+    transition: .5s;
+    cursor: pointer;
+    
+}
+#navber-part .button-part #cls:hover{
+    color: #ffc712;
+    background: #0f2f44;
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #d6d6d6;
+    top: 0;
+    z-index: 9999;
+}
+/* =================================================
+                Navber part
+=================================================*/
+
+/* =================================================
+                banner part
+=================================================*/
+
+
+#banner-part{
+    background: url(../Images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    line-height: 40px;
+    margin-bottom: 50px;
+
+}
+#banner-part h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #0f2f44;
+}
+
+#banner-part h1{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 800;
+    font-size: 90px;
+    margin-bottom: 25px;
+    color: #0f2f44;
+    text-transform: uppercase;
+}
+#banner-part h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #aab0d8;
+    letter-spacing: 20px;
+    margin-bottom: 20px;
+}
+#banner-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 580px;
+    line-height:28px;
+    margin-bottom: 30px;
+}
+#banner-part .explor{
+    background: #8484bf;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px 20px;
+    font-size: 22px;
+    font-weight: 500;
+    border: 1px solid #8484bf;
+    border-radius: 5px;
+    margin-right: 25px;
+    transition: .4s;
+       
+}
+#banner-part i{
+    color: #8484bf;
+    background: #ffffff;
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    transition: .4s;
+
+}
+#banner-part .explor:hover{
+    color: #8484bf;
+    background: #ffffff;
+}
+#banner-part i:hover{
+    color: #ffffff;
+    background: #8484bf;
+}
+/* =================================================
+                Banner part
+=================================================*/
+
+/* =================================================
+                about part
+=================================================*/
+#about-part .text{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+#about-part .text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+#about-part .text h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+    margin-bottom: 35px;
+    color: #0f2f44;
+   
+}
+#about-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+    margin-bottom: 25px;
+    
+}
+#about-part .text ul{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 45px;
+    margin-left: 50px;
+}
+#about-part .text .about-button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0f2f44;
+    padding: 8px 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    background: #ffffff;
+    box-shadow: 4px 8px 30px 0px rgba(0,0,0,0.1);
+}
+#about-part .text .about-button:hover{
+    background: #ffc712;
+}
+#about-part .text{
+    margin-bottom: 50px;
+}
+#about-part .image{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* =================================================
+                about part
+=================================================*/
+
+/* =================================================
+                Sevice part
+=================================================*/
+#service-part{
+    margin-bottom: 100px;
+    background-color: #f5f5f5;
+    padding-top:50px;
+    padding-bottom: 40px;
+}
+#service-part .title-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+#service-part .title-text h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    color: #0f2f44;
+    
+}
+#service-part .title-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#service-part .sevices-part .sevice-itam{
+    background: #eeeeee;
+    margin: 20px; 
+    position: relative;
+    
+}
+
+#service-part .sevices-part .sevice-itam .overlay{
+    width: 0%;
+    height: 100%;
+    background:#0f2f44;
+    top: 0;
+    left: 0;
+    transition: .4s;
+    position: absolute;
+    text-align: center; 
+    opacity: 0;
+    box-shadow: 4px 8px 30px 0px rgba(0,0,0,0.1);   
+}
+#service-part .sevices-part .sevice-itam .overlay img{
+    margin-top:25px;
+    margin-left: 43%;
+    
+
+}
+#service-part .sevices-part .sevice-itam .overlay .icon{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50px;
+    line-height: 40px;
+    color: #0f2f44;
+    cursor: pointer;
+    transition: .5s;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+#service-part .sevices-part .sevice-itam .overlay .icon:hover{
+    background: #ffc712;
+}
+
+#service-part .sevices-part .sevice-itam:hover .overlay {
+    width: 100%;
+    color: #ffffff;
+    opacity: 1;     
+}
+#service-part .sevices-part .sevice-itam .s-details .s-img{
+    width: 25%;
+    background:#e9e9e9;
+    float: left;
+    text-align: center;
+}
+#service-part .sevices-part .sevice-itam .s-details .s-img img{
+    margin: 50px 0;
+  
+}
+#service-part .sevices-part .sevice-itam .s-details .s-text{
+    width: 70%;
+    background: #eeeeee;
+    float: left;
+    margin-left: 5%;
+}
+#service-part .sevices-part .sevice-itam .s-details .s-text h4{
+    font-family: 'Open Sans', sans-serif;
+    color: #222222;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#service-part .sevices-part .sevice-itam .s-details .s-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300px;
+    font-size: 16px;
+    color: #444444;
+    width: 263px;
+    margin-bottom: 15px;
+}
+/* =================================================
+                Sevice part
+=================================================*/
+
+/* =================================================
+                protfolio part
+=================================================*/
+#protfolio-part{
+    margin-bottom: 100px;
+}
+#protfolio-part .text-part{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+#protfolio-part .text-part h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#protfolio-part .text-part h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    color: #0f2f44;
+}
+#protfolio-part .protfolio .protfolio-item {
+    width: 30%;
+    margin: 22px;
+    float: left;
+    position: relative;
+
+    
+}
+#protfolio-part .protfolio .protfolio-item img{
+    width: 100%;
+    
+}
+#protfolio-part .protfolio .protfolio-item .overlay{
+    width: 100%;
+    left: 0;
+    bottom:0;
+    height: auto;
+    position: absolute;
+}
+#protfolio-part .protfolio .protfolio-item .overlay p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background: white;
+    padding: 15px;
+    opacity: 0;
+    transition: .5s;
+    color: #0f2f44;   
+
+}
+#protfolio-part .protfolio .protfolio-item:hover .overlay p{
+    opacity: 1;
+}
+#protfolio-part .protfolio .protfolio-item:hover .overlay{
+    box-shadow: 4px 8px 30px 0px rgba(0,0,0,0.1); 
+}
+#protfolio-part  .port-button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: white;
+    padding: 10px 20px;
+    color: #0f2f44;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 45%;
+    box-shadow: 4px 8px 30px 0px rgba(0,0,0,0.1);
+}
+#protfolio-part  .port-button:hover{
+    background: #ffc712;
+}
+
+
+/* =================================================
+                protfolio part
+=================================================*/
+
+
+/* =================================================
+                Testimonial part
+=================================================*/
+#testimonial-part{
+    margin-bottom: 100px;
+    background: #f5f5f5;
+    padding: 60px 0;
+}
+
+#testimonial-part .title-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+#testimonial-part .title-text h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    color: #0f2f44;
+}
+#testimonial-part .title-text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#testimonial-part .testimoinal .test-item {
+    background: #e9e9e9;
+}
+#testimonial-part .testimoinal .test-item .test-details{
+    width: 100%;
+    
+}
+#testimonial-part .testimoinal .test-item .test-details img{
+    width: 36%;
+    float: left;
+}
+#testimonial-part .testimoinal .test-item  .test-details .text{
+    width: 60%;
+    float: left;
+    margin-left: 22px;
+    
+}
+
+#testimonial-part .testimoinal .test-item .test-details .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #0f2f44;
+    width: 360px;
+
+}
+#testimonial-part .testimoinal .test-item .test-details .text h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #0f2f44;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+#testimonial-part .testimoinal .test-item .test-details .text h4{
+    font-family: 'Open Sans', sans-serif;
+    color: #0f2f44;
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* =================================================
+               Testimonial part
+=================================================*/
+
+/* =================================================
+               Blog part
+=================================================*/
+#blog-part{
+    margin-bottom: 100px;
+}
+#blog-part .title-part{
+    text-align: center;
+}
+#blog-part .title-part h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#blog-part .title-part h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    color: #0f2f44;
+}
+#blog-part .img-part .img-item{
+    width: 27%;
+    height: auto;
+    background: #f5f5f5;
+    float: left;
+    margin-left:5%;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+#blog-part .img-part .img-item .blog-img{
+    text-align: center;
+    margin-top: 22px;
+}
+#blog-part .img-part .img-item .blog-details h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #777777;
+}
+#blog-part .img-part .img-item .blog-details h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 20px;
+    
+    color: #222222;
+}
+#blog-part .img-part .img-item .blog-details a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: #777777;
+    
+}
+#blog-part .img-part .img-item:hover{
+    background: #0f2f44;
+}
+#blog-part .img-part .img-item .blog-details:hover h5 {
+    color: white;
+}
+#blog-part .img-part .img-item .blog-details:hover h3 {
+    color: white;
+}
+#blog-part .img-part .img-item .blog-details:hover a {
+    color: white;
+}
+#blog-part .blog-btn{
+    text-align: center;
+    margin-top: 80px; 
+}
+#blog-part .blog-btn a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    background:;
+    color: #0f2f44;
+    padding: 10px 20px;
+    border-radius: 5%;
+    box-shadow: 4px 8px 30px 0px rgba(0,0,0,0.1);
+}
+#blog-part .blog-btn:hover a{
+    background: #ffc712;
+}
+
+/* =================================================
+               Blog part
+=================================================*/
+
+/* =================================================
+               Footer part
+=================================================*/
+
+footer{
+    background: #f5f5f5;
+    box-shadow: 0px -4px 39px 0px rgb(0 0 0 / 10%);
+    padding: 80px 0;
+}
+footer h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: #0f2f44;
+    font-weight: 400;
+}
+footer .footer-logo{
+    width: 25%;
+    
+    float: left;
+}
+footer .footer-logo p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #0f2f44;
+    width: 328px;
+    margin-top: 30px;
+}
+footer .footer-logo i{
+    font-size: 20px;
+    color: #0f2f44;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #0f2f44;
+    line-height: 40px;
+    text-align: center;
+    margin: 7px;
+    margin-top: 30px;
+    transition: .5s;
+    cursor: pointer;
+}
+footer .footer-logo i:hover {
+    color: white;
+    background: #0f2f44;
+}
+footer .contact-part{
+    width: 25%;
+    float: left;
+}
+footer .contact-part .item{
+    margin: 40px 0;
+}
+footer .contact-part .item .icon{
+    
+    width: 10%;
+    float: left;
+}
+footer .contact-part .item .text{
+    width: 90%;
+    float: left;
+    
+}
+footer .contact-part .item .icon i{
+    font-size: 25px;
+    color: #777777;
+}
+footer .contact-part .item .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    width: 300px;
+}
+footer .contact-part .item .text .number{
+    width: 158px;
+}
+footer .link-part{
+    width: 15%;
+    float: left;
+}
+footer .link-part ul li{
+    margin-top: 30px;
+    transition: .6s;
+}
+footer .link-part ul li:hover{
+    margin-left: 20px;
+    
+}
+footer .link-part ul li a{
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+footer .photo-part{
+    width: 35%;
+    float: left;
+}
+footer .photo-part .image{
+margin-top: 30px;
+}
+footer .photo-part .image img{
+    width: 21%;
+    margin: 6px;
+}
+
+/* =================================================
+               Footer part
+=================================================*/
+
+/* =================================================
+               copyright part
+=================================================*/
+#foter-part{
+    background: #f8f8f8;
+    box-shadow: inset 0px 40px 166px -88px rgb(0 0 0 / 20%);
+}
+
+#foter-part .copyright-part{
+    text-align: center;
+    padding: 15px 0;
+}
+#foter-part .copyright-part ul li{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    padding: 0 5px;
+}
+#foter-part .copyright-part a{
+    color: #ffc712;
+}
+
+/* =================================================
+              copyright part
+=================================================*/
+
